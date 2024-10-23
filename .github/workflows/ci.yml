@@ -28,7 +28,6 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest  # or any other testing command you use
-    - name: List files
-      run: ls -al
+        pytest  
+   
           
